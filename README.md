@@ -66,3 +66,12 @@ Credits
   - [Masa Hage](https://github.com/MhageGH) (motivation)
   - [Tixlegeek](https://github.com/tixlegeek) (art director)
   - [Cyriak](https://www.youtube.com/user/cyriak) (materials for the demo video)
+
+
+## 설치
+- 동영상 변환을 위해서 ffmpeg과 imagemagick의 설치가 필요함.(brew로 설치 가능)
+- 변환하고자 하는 파일은 video 폴더안에 .xxxxx.mp4 의 형태로 이름을 변경해서 카피해 놓는다.
+~~~
+  $ ./workflow.sh sample .sample.mp4
+~~~  
+- 이렇게 실행을 하면 frame 폴더에 변환된 파일이 저장이 된다. 이 파일들을 SD에 저장을 해서 M5Stack에 삽입하면 동영상 재생이 가능한다.
